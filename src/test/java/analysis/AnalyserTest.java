@@ -29,7 +29,7 @@ public class AnalyserTest extends TestCase {
     
     @Test
     public void testVeryBadSentiment() {
-        assertEquals(0, analyser.findSentiment("Bad bad"));
+        assertEquals(0, analyser.findSentiment("Bad"));
     }
     
     @Test
